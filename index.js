@@ -13,9 +13,10 @@ const result = await axios.get(prepend(url)).catch(e => {
 
 const html = result.data;
 const title = articleTitle(html);
-console.log('title:', title);
+console.log('Title:', title);
 
 const md = `[${title}](${url})`;
-console.log('md:', md);
+console.log('Markdown link:', md);
+console.log('Copied to clipboard! 👻')
 
 clipboard.writeSync(md);
