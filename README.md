@@ -2,9 +2,13 @@
 
 Node module to create a markdown link.
 
-1. Fetch title from webpage at given url
-2. Generate markdown link this this format: `[title](url)`
-3. Copy link to system clipboard (ready for pasting into your markdown file 👻)
+[![npm version](https://badge.fury.io/js/md-linker.svg)](https://badge.fury.io/js/md-linker)
+
+
+What it does:
+1. Fetches title from webpage at given url
+2. Generates markdown link this this format: `[title](url)`
+3. Copies link to system clipboard (ready for pasting into your markdown file 👻)
 
 ## Usage
 ```
