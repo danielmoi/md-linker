@@ -1,12 +1,17 @@
 {
-  "name": "md-url",
+  "name": "md-linker",
   "version": "0.0.1",
-  "description": "",
+  "description": "Module for creating markdown link from url",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielmoi/md-url.git"
+  },
+  "keywords": ["markdown", "link", "url", "title", "fetch", "generate", "website", "magic"],
   "author": "",
   "license": "Apache-2.0",
   "type": "module",
