@@ -11,6 +11,9 @@
   "license": "Apache-2.0",
   "type": "module",
   "dependencies": {
-    "article-title": "^4.0.0"
+    "article-title": "^4.0.0",
+    "axios": "^0.24.0",
+    "clipboardy": "^3.0.0",
+    "prepend-http": "^4.0.0"
   }
 }
