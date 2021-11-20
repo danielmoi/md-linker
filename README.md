@@ -1,4 +1,4 @@
-# md-url
+# md-linker
 
 Node module to create a markdown link.
 
