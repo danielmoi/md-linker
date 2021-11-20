@@ -27,7 +27,7 @@ Will generate and copy this markdown to your system clipboard:
 ```
 
 ## Credits
-[@sindresorhus]([](https://twitter.com/sindresorhus)) for
+[@sindresorhus](https://twitter.com/sindresorhus) for
 - [article-title](https://github.com/sindresorhus/article-title)
 - [clipboardy](https://github.com/sindresorhus/clipboardy)
 - [prepend-http](https://github.com/sindresorhus/prepend-http)
