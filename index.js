@@ -12,9 +12,10 @@ const result = await axios.get(prepend(url)).catch(e => {
 });
 
 const html = result.data;
-const title = articleTitle(html);
-console.log('Title:', title);
+const titleRaw = articleTitle(html);
+console.log('Title:', titleRaw || '(Not found)');
 
+const title = titleRaw || url;
 const md = `[${title}](${url})`;
 console.log('Markdown link:', md);
 console.log('Copied to clipboard! 👻')
