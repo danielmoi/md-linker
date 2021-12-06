@@ -7,7 +7,12 @@ const args = process.argv;
 
 const url = args[2];
 
-const result = await axios.get(prepend(url)).catch(e => {
+const config = {
+  timeout: 3000,
+}
+const instance = axios.create(config);
+
+const result = await instance.get(prepend(url)).catch(e => {
   console.log('Error fetching url:', e);
 });
 
